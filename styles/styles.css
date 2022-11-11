@@ -2,12 +2,12 @@
 
 @keyframes button_hover_trigger
 {
-    from {background-color: #ffffff3f;}
-    to {background-color:  beige;}
+    from {background-color: #333333;}
+    to {background-color:  #333333;}
 }
 @keyframes button_hover_untrigger
 {
-    to {background-color: #ffffff3f;}
+    to {background-color: #333333;}
 }
 
 *
@@ -20,7 +20,7 @@
 body
 {
     min-height: 100vh;
-    background: #554a3c;
+    background: #333333;
 }
 header
 {
@@ -123,7 +123,7 @@ ul li a
 ul li a:hover,
 ul li a.active
 {
-    background: beige;
+    background: #333333;
     color: white;
     animation-name: button_hover_trigger;
     animation-duration: 0.5s;
@@ -183,7 +183,7 @@ section img
 #pink-text
 {
     font-size: inherit;
-    color: beige;
+    color: #e25a59;
     cursor: default;
     user-select: none;
 }
