@@ -57,6 +57,9 @@ header .logo
     cursor: default;
     user-select: none;
 }
+.logoimag {
+     border-radius: 256px;
+}
 header ul
 {
     display: flex;
@@ -183,7 +186,7 @@ section img
 #pink-text
 {
     font-size: inherit;
-    color: #e25a59;
+    color: #f2a002;
     cursor: default;
     user-select: none;
 }
